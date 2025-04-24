@@ -227,33 +227,33 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white p-8 rounded-lg shadow-md border-t-4 border-accent-500"
+              className="bg-primary-400 p-8 rounded-lg shadow-md border-t-4 border-[#eec1ac]"
             >
               <div className="flex items-center mb-6">
-                <BookOpen className="w-7 h-7 text-accent-500 mr-3" />
-                <h3 className="text-xl font-bold">Dimension juridique</h3>
+                <BookOpen className="w-7 h-7 text-[#eec1ac] mr-3" />
+                <h3 className="text-xl font-bold text-[#eec1ac]">Dimension juridique</h3>
               </div>
               
-              <p className="text-secondary-800 mb-6">
+              <p className="text-white mb-6">
                 J'intègre systématiquement le cadre légal dans mes interventions pour garantir 
                 la conformité des actions et sécuriser les pratiques RH et managériales.
               </p>
               
-              <ul className="space-y-2 text-secondary-800">
+              <ul className="space-y-2 text-white">
                 <li className="flex items-start">
-                  <span className="text-accent-500 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Respect du cadre légal du travail</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-accent-500 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Sécurisation des pratiques managériales</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-accent-500 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Anticipation des risques juridiques</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-accent-500 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Conseil sur les obligations légales</span>
                 </li>
               </ul>
@@ -265,34 +265,34 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-12 lg:mt-16 bg-primary-50 p-8 rounded-lg border-l-4 border-primary-600"
+            className="mt-12 lg:mt-16 bg-primary-400 p-8 rounded-lg border-l-4 border-[#eec1ac]"
           >
             <div className="flex items-center mb-6">
-              <Zap className="w-7 h-7 text-primary-600 mr-3" />
-              <h3 className="text-xl font-bold">L'approche Equilibris Consulting</h3>
+              <Zap className="w-7 h-7 text-[#eec1ac] mr-3" />
+              <h3 className="text-xl font-bold text-[#eec1ac]">L'approche Equilibris Consulting</h3>
             </div>
             
-            <p className="text-secondary-800 mb-6">
+            <p className="text-white mb-6">
               La combinaison de ces deux dimensions crée une synergie unique qui permet d'aborder chaque situation 
               sous un angle complet et de proposer des solutions pertinentes, durables et conformes.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h4 className="font-bold text-secondary-900 mb-3">Points forts</h4>
-                <ul className="space-y-2 text-secondary-800">
+                <h4 className="font-bold text-white mb-3">Points forts</h4>
+                <ul className="space-y-2 text-white">
                 <li className="flex items-start">
-                    <span className="text-primary-600 mr-2">•</span>
+                    <span className="text-white mr-2">•</span>
                     <span>Double regard : humain et juridique, pour des actions bienveillantes et
                     rigoureuses</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary-600 mr-2">•</span>
+                    <span className="text-white mr-2">•</span>
                     <span>Expérience terrain avec une approche concrète des problématiques
                     vécues</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary-600 mr-2">•</span>
+                    <span className="text-white mr-2">•</span>
                     <span>Écoute, engagement et pragmatisme, dans une logique de résultats
                     durables</span>
                   </li>
@@ -300,18 +300,18 @@ const About = () => {
               </div>
               
               <div>
-                <h4 className="font-bold text-secondary-900 mb-3">Bénéfices clients</h4>
-                <ul className="space-y-2 text-secondary-800">
+                <h4 className="font-bold text-white mb-3">Bénéfices clients</h4>
+                <ul className="space-y-2 text-white">
                   <li className="flex items-start">
-                    <span className="text-primary-600 mr-2">•</span>
+                    <span className="text-white mr-2">•</span>
                     <span>Économie de temps et d'énergie</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary-600 mr-2">•</span>
+                    <span className="text-white mr-2">•</span>
                     <span>Réduction des risques juridiques</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-primary-600 mr-2">•</span>
+                    <span className="text-white mr-2">•</span>
                     <span>Amélioration durable du climat social</span>
                   </li>
                 </ul>
