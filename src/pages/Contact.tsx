@@ -9,6 +9,9 @@ const Contact = () => {
       <PageHeader 
         title="Contact" 
         subtitle="Prenez contact avec nous pour échanger sur vos besoins et problématiques." 
+        titleColor="text-[#eec1ac]"
+        subtitleColor="text-white"
+        backgroundColor="bg-primary-400"
       />
       
       <section className="section">

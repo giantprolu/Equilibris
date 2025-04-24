@@ -71,6 +71,9 @@ const Services = () => {
       <PageHeader 
         title="Nos services" 
         subtitle="Découvrez notre palette de services combinant Coach en psychologie & Conseil en droit social" 
+        titleColor="text-[#eec1ac]"
+        subtitleColor="text-white"
+        backgroundColor="bg-primary-400"
       />
       
       <section className="section">

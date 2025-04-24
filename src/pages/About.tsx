@@ -8,7 +8,10 @@ const About = () => {
     <>
       <PageHeader 
         title="Qui suis-je ?" 
-        subtitle="Découvrez mon parcours et mon approche unique combinant psychologie et droit social." 
+        subtitle="Découvrez mon parcours et mon approche unique combinant psychologie et droit social."
+        titleColor="text-[#eec1ac]"
+        subtitleColor="text-white"
+        backgroundColor="bg-primary-400"
       />
       
       <section className="section">

@@ -88,7 +88,10 @@ const Method = () => {
     <>
       <PageHeader 
         title="Notre méthode" 
-        subtitle="Une démarche structurée et sur-mesure qui s'adapte à vos besoins et spécificités." 
+        subtitle="Une démarche structurée et sur-mesure qui s'adapte à vos besoins et spécificités."
+        titleColor="text-[#eec1ac]"
+        subtitleColor="text-white"
+        backgroundColor="bg-primary-400" 
       />
       
       <section className="section">
