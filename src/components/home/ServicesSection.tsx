@@ -5,19 +5,19 @@ import { Users, Briefcase, BookOpen, ArrowRight } from 'lucide-react';
 
 const services = [
   {
-    icon: <Users className="w-8 h-8 text-primary-500" />,
+    icon: <Users className="w-8 h-8 text-[#eec1ac]" />,
     title: 'Accompagnement individuel & collectif',
     description: 'Coaching individuel (managers, salariés en transition, situations de mal-être, burn-out)',
     link: '/services#accompagnement',
   },
   {
-    icon: <Briefcase className="w-8 h-8 text-primary-500" />,
+    icon: <Briefcase className="w-8 h-8 text-[#eec1ac]" />,
     title: 'Conseil RH & Accompagnement juridique',
     description: 'Expertise juridique et accompagnement stratégique pour la gestion des ressources humaines et des relations sociales.',
     link: '/services#conseil',
   },
   {
-    icon: <BookOpen className="w-8 h-8 text-primary-500" />,
+    icon: <BookOpen className="w-8 h-8 text-[#eec1ac]" />,
     title: 'Formations & sensibilisations',
     description: 'Sessions de formation sur-mesure pour développer les compétences managériales et la culture d\'entreprise.',
     link: '/services#formations',
@@ -68,16 +68,16 @@ const ServicesSection = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-white rounded-lg shadow-md p-8 border border-secondary-100 hover:border-primary-300 transition-all duration-300 group"
+              className="bg-primary-400 rounded-lg shadow-md p-8 border border-[#eec1ac] hover:border-[#eec1ac] hover:border-2 transition-all duration-300 group"
             >
-              <div className="bg-primary-50 rounded-full w-16 h-16 flex items-center justify-center mb-6 group-hover:bg-primary-100 transition-colors">
+              <div className="bg-primary-500 rounded-full w-16 h-16 flex items-center justify-center mb-6 group-hover:bg-primary-600 transition-colors">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-              <p className="text-secondary-700 mb-6">{service.description}</p>
+              <h3 className="text-xl font-bold mb-4 text-[#eec1ac]">{service.title}</h3>
+              <p className="text-white mb-6">{service.description}</p>
               <Link 
                 to={service.link} 
-                className="inline-flex items-center text-primary-600 font-medium hover:text-primary-800 transition-colors"
+                className="inline-flex items-center text-[#eec1ac] font-medium hover:text-white transition-colors"
               >
                 En savoir plus
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
