@@ -44,7 +44,7 @@ const Hero = () => {
           >
             <div className="aspect-square rounded-full bg-primary-100 absolute w-3/4 h-3/4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10"></div>
             <img 
-              src="public/Equilibris.png" 
+              src="/Equilibris.png" 
               alt="Vanessa Lefebvre - Equilibris Consulting" 
               className="relative z-10 rounded-lg shadow-xl h-auto max-w-full mx-auto"
             />
