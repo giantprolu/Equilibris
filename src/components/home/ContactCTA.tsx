@@ -19,7 +19,7 @@ const ContactCTA = () => {
           </h2>
           <p className="text-lg text-primary-100 mb-8">
             Contactez-nous pour échanger sur vos besoins et découvrir comment nous pouvons vous accompagner 
-            dans vos défis humains et organisationnels.
+            avec une approche unique combinant psychologie et droit.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

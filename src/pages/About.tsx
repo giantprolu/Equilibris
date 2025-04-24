@@ -23,7 +23,7 @@ const About = () => {
               <h2 className="text-3xl font-bold text-primary-800 mb-6">
                 Vanessa Lefebvre
               </h2>
-              <h3 className="text-xl text-accent-600 mb-8">
+              <h3 className="text-xl text-secondary-600 mb-8">
                 Fondatrice d'Equilibris Consulting
               </h3>
               

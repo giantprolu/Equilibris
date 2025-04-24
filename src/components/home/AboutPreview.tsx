@@ -16,7 +16,7 @@ const AboutPreview = () => {
             className="order-2 lg:order-1"
           >
             <h2 className="text-primary-800 mb-6">Vanessa Lefebvre</h2>
-            <h3 className="text-xl text-accent-600 mb-6">Fondatrice d'Equilibris Consulting</h3>
+            <h3 className="text-xl text-yellow-600 mb-6">Fondatrice d'Equilibris Consulting</h3>
             
             <p className="mb-6 text-secondary-800">
               Diplômée en psychologie et en droit social, j'accompagne les entreprises 
@@ -59,27 +59,27 @@ const AboutPreview = () => {
             </Link>
           </motion.div>
           
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6 }}
-            className="order-1 lg:order-2"
-          >
-            <div className="relative">
-              <div className="absolute inset-0 bg-accent-100 rounded-lg transform rotate-3"></div>
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6 }}
+              className="order-1 lg:order-2"
+            >
+              <div className="relative">
+              <div className="absolute inset-0 bg-accent-100 rounded-lg transform rotate-3 w-full h-full"></div>
               <img 
                 src="/portait1.jpg" 
                 alt="Vanessa Lefebvre - Portrait" 
-                className="relative z-10 rounded-lg shadow-lg"
+                className="relative z-10 rounded-lg shadow-lg w-3/4 mx-auto"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg z-20">
                 <p className="text-primary-800 font-display italic">
-                  "Le bien-être au travail est un équilibre à construire ensemble."
+                "Le bien-être au travail est un équilibre à construire ensemble."
                 </p>
               </div>
-            </div>
-          </motion.div>
+              </div>
+            </motion.div>
         </div>
       </div>
     </section>

@@ -56,7 +56,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <Mail className="w-5 h-5 text-primary-400 mt-1 mr-3" />
                 <a href="mailto:contact@equilibris-consulting.com" className="text-secondary-300 hover:text-white transition-colors">
-                  contact@equilibris-consulting.com
+                  
                 </a>
               </li>
               <li className="flex items-start">

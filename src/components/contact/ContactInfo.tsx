@@ -12,7 +12,7 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-bold text-secondary-900">Email</h4>
             <a 
-              href="mailto:contact@equilibris-consulting.com" 
+              href="mailto:equilibris-consulting@gmail.com" 
               className="text-secondary-700 hover:text-primary-600 transition-colors"
             >
               equilibris-consulting@gmail.com

@@ -5,19 +5,19 @@ import { Users, Briefcase, BookOpen, ArrowRight } from 'lucide-react';
 
 const services = [
   {
-    icon: <Users className="w-8 h-8 text-accent-500" />,
+    icon: <Users className="w-8 h-8 text-primary-500" />,
     title: 'Accompagnement individuel & collectif',
     description: 'Coaching individuel (managers, salariés en transition, situations de mal-être, burn-out)',
     link: '/services#accompagnement',
   },
   {
-    icon: <Briefcase className="w-8 h-8 text-accent-500" />,
+    icon: <Briefcase className="w-8 h-8 text-primary-500" />,
     title: 'Conseil RH & Accompagnement juridique',
     description: 'Expertise juridique et accompagnement stratégique pour la gestion des ressources humaines et des relations sociales.',
     link: '/services#conseil',
   },
   {
-    icon: <BookOpen className="w-8 h-8 text-accent-500" />,
+    icon: <BookOpen className="w-8 h-8 text-primary-500" />,
     title: 'Formations & sensibilisations',
     description: 'Sessions de formation sur-mesure pour développer les compétences managériales et la culture d\'entreprise.',
     link: '/services#formations',

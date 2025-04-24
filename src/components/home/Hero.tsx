@@ -20,7 +20,7 @@ const Hero = () => {
             className="text-center lg:text-left"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="text-primary-800">Coach</span> en psychologie & <span className="text-primary-800">Conseil</span> en droit social
+              <span className="text-[#879683]">Coach en psychologie & Conseil en droit social</span>
             </h1>
             <p className="text-xl text-primary-700 mb-8 max-w-xl mx-auto lg:mx-0">
               Une approche unique combinant expertise en psychologie et droit social pour accompagner les organisations et leurs talents.
