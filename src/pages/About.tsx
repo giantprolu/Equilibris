@@ -176,10 +176,10 @@ const About = () => {
         </div>
       </section> */}
       
-      <section className="section bg-primary-50">
+      <section className="section bg-[#eec1ac]">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-bold text-primary-800 mb-6">
+            <h2 className="text-3xl font-bold text-primary-400 mb-6">
               Mon approche
             </h2>
             <p className="text-lg text-secondary-700">
