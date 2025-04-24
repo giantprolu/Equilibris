@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <Scale className="w-6 h-6 text-primary-400" />
               <span className="ml-2 text-xl font-display font-bold text-white">
-                Equilibris<span className="text-accent-500">.</span>
+                Equilibris Consulting<span className="text-accent-500">.</span>
               </span>
             </div>
             <p className="text-secondary-300 mb-6">
@@ -42,11 +42,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/etudes-de-cas" className="text-secondary-300 hover:text-white transition-colors">
-                  Études de cas
-                </Link>
-              </li>
-              <li>
                 <Link to="/methode" className="text-secondary-300 hover:text-white transition-colors">
                   Méthode
                 </Link>
@@ -66,14 +61,14 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Phone className="w-5 h-5 text-primary-400 mt-1 mr-3" />
-                <a href="tel:+33123456789" className="text-secondary-300 hover:text-white transition-colors">
-                  +33 1 23 45 67 89
+                <a href="tel:+33647258250" className="text-secondary-300 hover:text-white transition-colors">
+                  +33 6 47 25 82 50
                 </a>
               </li>
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-primary-400 mt-1 mr-3" />
                 <span className="text-secondary-300">
-                  Paris, France
+                  Lille, France
                 </span>
               </li>
               <li className="flex items-start mt-4">
@@ -118,7 +113,7 @@ const Footer = () => {
             &copy; {currentYear} Equilibris Consulting. Tous droits réservés.
           </p>
           <p className="text-secondary-400 text-sm mt-2 md:mt-0">
-            Conçu par <a href="#" className="text-primary-400 hover:text-primary-300">Equilibris Design</a>
+            Conçu par <a href="#" className="text-primary-400 hover:text-primary-300">Equilibris Consulting Design</a>
           </p>
         </div>
       </div>

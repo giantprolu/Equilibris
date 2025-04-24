@@ -7,12 +7,12 @@ const services = [
   {
     icon: <Users className="w-8 h-8 text-accent-500" />,
     title: 'Accompagnement individuel & collectif',
-    description: 'Coaching personnalisé et facilitation d\'équipe pour développer le potentiel humain et les dynamiques collectives.',
+    description: 'Coaching individuel (managers, salariés en transition, situations de mal-être, burn-out)',
     link: '/services#accompagnement',
   },
   {
     icon: <Briefcase className="w-8 h-8 text-accent-500" />,
-    title: 'Conseil RH & Droit social',
+    title: 'Conseil RH & Accompagnement juridique',
     description: 'Expertise juridique et accompagnement stratégique pour la gestion des ressources humaines et des relations sociales.',
     link: '/services#conseil',
   },

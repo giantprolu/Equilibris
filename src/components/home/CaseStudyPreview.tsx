@@ -62,9 +62,6 @@ const CaseStudyPreview = () => {
                 </div>
               </div>
               
-              <Link to="/etudes-de-cas" className="btn-primary">
-                Voir l'étude complète
-              </Link>
             </div>
             
             <div className="relative h-80 lg:h-auto">
@@ -78,7 +75,7 @@ const CaseStudyPreview = () => {
         </motion.div>
         
         <div className="text-center mt-12">
-          <Link to="/etudes-de-cas" className="btn-secondary">
+          <Link to="/s-de-cas" className="btn-secondary">
             Explorer toutes nos études de cas
           </Link>
         </div>

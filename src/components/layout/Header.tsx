@@ -27,7 +27,6 @@ const Header = () => {
     { name: 'Accueil', path: '/' },
     { name: 'Qui suis-je ?', path: '/qui-suis-je' },
     { name: 'Services', path: '/services' },
-    { name: 'Études de cas', path: '/etudes-de-cas' },
     { name: 'Méthode', path: '/methode' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -44,7 +43,7 @@ const Header = () => {
           <div className="flex items-center">
             <Scale className="w-7 h-7 text-primary-600" />
             <span className="ml-2 text-xl font-display font-bold text-primary-800">
-              Equilibris<span className="text-accent-500">.</span>
+              Equilibris Consulting<span className="text-accent-500">.</span>
             </span>
           </div>
         </Link>

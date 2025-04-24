@@ -19,7 +19,7 @@ const AboutPreview = () => {
             <h3 className="text-xl text-accent-600 mb-6">Fondatrice d'Equilibris Consulting</h3>
             
             <p className="mb-6 text-secondary-800">
-              Diplômée en psychologie et en droit social, j'accompagne depuis plus de 15 ans les entreprises 
+              Diplômée en psychologie et en droit social, j'accompagne les entreprises 
               et leurs collaborateurs dans leurs transformations et problématiques humaines.
             </p>
             
@@ -40,7 +40,6 @@ const AboutPreview = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-secondary-900">Expérience éprouvée</h4>
-                  <p className="text-secondary-700">Plus de 15 ans dans l'accompagnement des organisations</p>
                 </div>
               </div>
               
@@ -70,7 +69,7 @@ const AboutPreview = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-accent-100 rounded-lg transform rotate-3"></div>
               <img 
-                src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="public/portait1.jpg" 
                 alt="Vanessa Lefebvre - Portrait" 
                 className="relative z-10 rounded-lg shadow-lg"
               />

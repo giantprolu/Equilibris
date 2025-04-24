@@ -7,13 +7,13 @@ const Services = () => {
     {
       id: 'accompagnement',
       title: 'Accompagnement individuel & collectif',
-      description: 'Nous proposons un accompagnement personnalisé pour les dirigeants, managers et équipes, axé sur le développement du potentiel humain et l\'amélioration des dynamiques collectives. Notre approche combine outils psychologiques et cadre juridique pour des résultats durables.',
+      description: 'Nous proposons un coaching individuel (managers, salariés en transition, situations de mal-être, burn-out). Prévention de la souffrance au travail, épuisement professionnel, perte de sens Médiation et gestion de conflits interpersonnels ou d’équipe. Soutien à la reprise après arrêt (maladie, burn-out, conflits)',
       offerings: [
         'Coaching individuel de dirigeants et managers',
         'Facilitation d\'ateliers collectifs et team building',
         'Médiation et résolution de conflits',
         'Accompagnement des transitions professionnelles',
-        'Gestion du stress et prévention des RPS'
+        'Gestion du stress'
       ],
       benefits: [
         'Développement du leadership et des compétences managériales',
@@ -27,7 +27,7 @@ const Services = () => {
     {
       id: 'conseil',
       title: 'Conseil RH & Droit social',
-      description: 'Notre expertise juridique et notre compréhension des enjeux humains nous permettent d\'accompagner les organisations dans leur stratégie RH et la gestion des relations sociales. Nous veillons à concilier conformité légale et bien-être au travail.',
+      description: 'Nos conseils aux équipes RH sur les relations sociales et les obligations légales aide à la gestion des situations sensibles : procédures disciplinaires, harcèlement, absences prolongées. Révision ou rédaction de documents RH : règlements intérieurs, chartes, notes internes. Appui dans les relations avec les représentants du personnel et les syndicats',
       offerings: [
         'Audit des pratiques RH et conformité légale',
         'Accompagnement des restructurations et réorganisations',
@@ -47,7 +47,7 @@ const Services = () => {
     {
       id: 'formations',
       title: 'Formations & sensibilisations',
-      description: 'Nous concevons et animons des formations sur-mesure pour développer les compétences managériales et la culture d\'entreprise. Nos programmes allient théorie, pratique et mise en conformité légale pour un impact optimal.',
+      description: 'Nous concevons des ateliers sur la communication, le leadership bienveillant, la gestion du stress. Formation des managers aux risques psychosociaux et au droit du travail. Accompagnement des RH et CSE sur les obligations en matière de QVT et de prévention',
       offerings: [
         'Management et leadership',
         'Communication et intelligence émotionnelle',

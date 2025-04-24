@@ -20,9 +20,9 @@ const Hero = () => {
             className="text-center lg:text-left"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="text-primary-800">Coaching</span> et <span className="text-primary-800">Conseil</span> en entreprise
+              <span className="text-primary-800">Coach</span> en psychologie & <span className="text-primary-800">Conseil</span> en droit social
             </h1>
-            <p className="text-xl text-secondary-700 mb-8 max-w-xl mx-auto lg:mx-0">
+            <p className="text-xl text-primary-700 mb-8 max-w-xl mx-auto lg:mx-0">
               Une approche unique combinant expertise en psychologie et droit social pour accompagner les organisations et leurs talents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -44,7 +44,7 @@ const Hero = () => {
           >
             <div className="aspect-square rounded-full bg-primary-100 absolute w-3/4 h-3/4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10"></div>
             <img 
-              src="https://images.pexels.com/photos/3760514/pexels-photo-3760514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="public/Equilibris.png" 
               alt="Vanessa Lefebvre - Equilibris Consulting" 
               className="relative z-10 rounded-lg shadow-xl h-auto max-w-full mx-auto"
             />

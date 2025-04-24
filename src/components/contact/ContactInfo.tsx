@@ -15,7 +15,7 @@ const ContactInfo = () => {
               href="mailto:contact@equilibris-consulting.com" 
               className="text-secondary-700 hover:text-primary-600 transition-colors"
             >
-              contact@equilibris-consulting.com
+              equilibris-consulting@gmail.com
             </a>
           </div>
         </div>
@@ -25,10 +25,10 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-bold text-secondary-900">Téléphone</h4>
             <a 
-              href="tel:+33123456789" 
+              href="tel:+33647258250" 
               className="text-secondary-700 hover:text-primary-600 transition-colors"
             >
-              +33 1 23 45 67 89
+              +33 06 47 25 82 50
             </a>
           </div>
         </div>
@@ -38,7 +38,7 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-bold text-secondary-900">Adresse</h4>
             <p className="text-secondary-700">
-              Paris, France
+              Lille, France
             </p>
           </div>
         </div>
@@ -48,7 +48,11 @@ const ContactInfo = () => {
           <div>
             <h4 className="font-bold text-secondary-900">Horaires</h4>
             <p className="text-secondary-700">
-              Lundi - Vendredi: 9h - 18h
+              <li className="text-secondary-800 hover:text-[#899784] transition-colors">Lundi : 9h - 18h</li>
+              <li className="text-secondary-800 hover:text-[#899784] transition-colors">Mardi : 9h - 18h</li>
+              <li className="text-secondary-800 hover:text-[#899784] transition-colors">Mercredi : 9h - 18h</li>
+              <li className="text-secondary-800 hover:text-[#899784] transition-colors">Jeudi : 9h - 18h</li>
+              <li className="text-secondary-800 hover:text-[#899784] transition-colors">Vendredi : 9h - 18h</li>
             </p>
           </div>
         </div>
@@ -63,7 +67,7 @@ const ContactInfo = () => {
               rel="noopener noreferrer" 
               className="text-secondary-700 hover:text-primary-600 transition-colors"
             >
-              linkedin.com/in/vanessa-lefebvre
+              Vanessa Lefebvre
             </a>
           </div>
         </div>
@@ -75,7 +79,7 @@ const ContactInfo = () => {
           Utilisez notre formulaire de contact ou appelez-nous directement pour une prise de rendez-vous rapide.
         </p>
         <a 
-          href="tel:+33123456789" 
+          href="tel:+33647258250" 
           className="btn-accent inline-block w-full text-center"
         >
           Appeler maintenant

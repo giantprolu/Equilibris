@@ -29,7 +29,7 @@ const About = () => {
               
               <div className="space-y-6 text-secondary-800">
                 <p>
-                  Diplômée en psychologie et en droit social, j'accompagne depuis plus de 15 ans les entreprises 
+                  Diplômée en psychologie et en droit social, j'accompagne les entreprises 
                   et leurs collaborateurs dans leurs transformations et problématiques humaines.
                 </p>
                 
@@ -55,7 +55,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-accent-100 rounded-lg transform -rotate-3"></div>
                 <img 
-                  src="https://images.pexels.com/photos/5325105/pexels-photo-5325105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="public/portait2.jpg" 
                   alt="Vanessa Lefebvre - Portrait" 
                   className="relative z-10 rounded-lg shadow-lg"
                 />
@@ -91,19 +91,19 @@ const About = () => {
               <ul className="space-y-3 text-secondary-800">
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Master en Psychologie du Travail - Université Paris Descartes</span>
+                  <span>Reste a compléter</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Master en Droit Social - Université Panthéon-Assas</span>
+                  <span>Reste a compléter</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Certification en Coaching Professionnel - ICF</span>
+                  <span>Reste a compléter</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Formation en Médiation d'Entreprise</span>
+                  <span>Reste a compléter</span>
                 </li>
               </ul>
             </motion.div>
@@ -122,19 +122,19 @@ const About = () => {
               <ul className="space-y-3 text-secondary-800">
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Directrice RH dans un groupe international (8 ans)</span>
+                  <span>Reste a compléter</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Consultante en cabinet de conseil RH (5 ans)</span>
+                  <span>Reste a compléter</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Juriste en droit social (3 ans)</span>
+                  <span>Reste a compléter</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>Fondatrice d'Equilibris Consulting (depuis 2018)</span>
+                  <span>Reste a compléter</span>
                 </li>
               </ul>
             </motion.div>
@@ -269,7 +269,7 @@ const About = () => {
           >
             <div className="flex items-center mb-6">
               <Zap className="w-7 h-7 text-primary-600 mr-3" />
-              <h3 className="text-xl font-bold">L'approche Equilibris</h3>
+              <h3 className="text-xl font-bold">L'approche Equilibris Consulting</h3>
             </div>
             
             <p className="text-secondary-800 mb-6">
@@ -281,17 +281,20 @@ const About = () => {
               <div>
                 <h4 className="font-bold text-secondary-900 mb-3">Points forts</h4>
                 <ul className="space-y-2 text-secondary-800">
-                  <li className="flex items-start">
+                <li className="flex items-start">
                     <span className="text-primary-600 mr-2">•</span>
-                    <span>Vision holistique des problématiques</span>
+                    <span>Double regard : humain et juridique, pour des actions bienveillantes et
+                    rigoureuses</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary-600 mr-2">•</span>
-                    <span>Solutions adaptées aux enjeux humains et légaux</span>
+                    <span>Expérience terrain avec une approche concrète des problématiques
+                    vécues</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary-600 mr-2">•</span>
-                    <span>Accompagnement éthique et sécurisé</span>
+                    <span>Écoute, engagement et pragmatisme, dans une logique de résultats
+                    durables</span>
                   </li>
                 </ul>
               </div>
