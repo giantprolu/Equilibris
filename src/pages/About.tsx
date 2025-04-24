@@ -176,7 +176,7 @@ const About = () => {
         </div>
       </section> */}
       
-      <section className="section bg-[#eec1ac]">
+      <section className="section bg-[#fce3df]">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-primary-400 mb-6">
