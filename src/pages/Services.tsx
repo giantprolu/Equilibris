@@ -70,7 +70,7 @@ const Services = () => {
     <>
       <PageHeader 
         title="Nos services" 
-        subtitle="Découvrez notre palette de services combinant expertise en psychologie et droit social." 
+        subtitle="Découvrez notre palette de services combinant Coach en psychologie & Conseil en droit social" 
       />
       
       <section className="section">

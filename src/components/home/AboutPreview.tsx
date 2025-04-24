@@ -69,7 +69,7 @@ const AboutPreview = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-accent-100 rounded-lg transform rotate-3"></div>
               <img 
-                src="public/portait1.jpg" 
+                src="/portait1.jpg" 
                 alt="Vanessa Lefebvre - Portrait" 
                 className="relative z-10 rounded-lg shadow-lg"
               />
