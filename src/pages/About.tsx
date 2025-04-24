@@ -23,7 +23,7 @@ const About = () => {
               <h2 className="text-3xl font-bold text-primary-800 mb-6">
                 Vanessa Lefebvre
               </h2>
-              <h3 className="text-xl text-secondary-600 mb-8">
+              <h3 className="text-xl text-yellow-600 mb-8">
                 Fondatrice d'Equilibris Consulting
               </h3>
               
@@ -32,7 +32,7 @@ const About = () => {
                   Diplômée en psychologie et en droit social, j'accompagne les entreprises 
                   et leurs collaborateurs dans leurs transformations et problématiques humaines.
                 </p>
-                
+
                 <p>
                   Mon parcours m'a permis de développer une expertise unique à l'intersection de la psychologie 
                   et du droit, me permettant d'aborder les situations professionnelles dans leur globalité, 
@@ -65,14 +65,14 @@ const About = () => {
         </div>
       </section>
       
-      <section className="section bg-primary-50">
+      {/* <section className="section bg-primary-50">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-primary-800 mb-6">
-              Parcours & Expertise
+              Mon 
             </h2>
             <p className="text-lg text-secondary-700">
-              Une formation solide et une expérience variée pour répondre aux défis complexes des organisations.
+            Je propose une approche transversale, à la croisée de la psychologie du travail, du coaching et du droit social.
             </p>
           </div>
           
@@ -171,16 +171,16 @@ const About = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
       
-      <section className="section">
+      <section className="section bg-primary-50">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold text-primary-800 mb-6">
               Mon approche
             </h2>
             <p className="text-lg text-secondary-700">
-              Une méthode unique qui combine psychologie et droit pour une approche complète des enjeux humains en entreprise.
+            Je propose une approche transversale, à la croisée de la psychologie du travail, du coaching et du droit social.
             </p>
           </div>
           
@@ -190,11 +190,11 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white p-8 rounded-lg shadow-md border-t-4 border-primary-600"
+              className="bg-white p-8 rounded-lg shadow-md border-t-4 border-rosedoré-300"
             >
               <div className="flex items-center mb-6">
-                <Users className="w-7 h-7 text-primary-600 mr-3" />
-                <h3 className="text-xl font-bold">Dimension psychologique</h3>
+                <Users className="w-7 h-7 text-rosedoré-300 mr-3" />
+                <h3 className="text-xl font-bold text-rosedoré-300">Dimension psychologique</h3>
               </div>
               
               <p className="text-secondary-800 mb-6">
