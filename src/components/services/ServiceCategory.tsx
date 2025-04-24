@@ -42,7 +42,7 @@ const ServiceCategory: React.FC<ServiceCategoryProps> = ({
             <ul className="space-y-2">
               {offerings.map((offering, index) => (
                 <li key={index} className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-accent-500 mt-1 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-yellow-600 mt-1 mr-3 flex-shrink-0" />
                   <span className="text-secondary-800">{offering}</span>
                 </li>
               ))}
@@ -54,7 +54,7 @@ const ServiceCategory: React.FC<ServiceCategoryProps> = ({
             <ul className="space-y-2">
               {benefits.map((benefit, index) => (
                 <li key={index} className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-primary-600 mt-1 mr-3 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-yellow-600 mt-1 mr-3 flex-shrink-0" />
                   <span className="text-secondary-800">{benefit}</span>
                 </li>
               ))}
