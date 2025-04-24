@@ -190,33 +190,33 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white p-8 rounded-lg shadow-md border-t-4 border-rosedoré-300"
+              className="bg-primary-400 p-8 rounded-lg shadow-md border-t-4 border-[#eec1ac]"
             >
               <div className="flex items-center mb-6">
-                <Users className="w-7 h-7 text-rosedoré-300 mr-3" />
-                <h3 className="text-xl font-bold text-rosedoré-300">Dimension psychologique</h3>
+                <Users className="w-7 h-7 text-[#eec1ac] mr-3" />
+                <h3 className="text-xl font-bold text-[#eec1ac]">Dimension psychologique</h3>
               </div>
               
-              <p className="text-secondary-800 mb-6">
+              <p className="text-white mb-6">
                 Je m'appuie sur les sciences comportementales pour comprendre les dynamiques individuelles 
                 et collectives, identifier les leviers de motivation et accompagner le développement des potentiels.
               </p>
               
-              <ul className="space-y-2 text-secondary-800">
+              <ul className="space-y-2 text-white">
                 <li className="flex items-start">
-                  <span className="text-primary-600 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Analyse des comportements et des interactions</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-primary-600 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Développement des compétences relationnelles</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-primary-600 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Accompagnement des transformations personnelles</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-primary-600 mr-2">•</span>
+                  <span className="text-white mr-2">•</span>
                   <span>Prévention des risques psychosociaux</span>
                 </li>
               </ul>
